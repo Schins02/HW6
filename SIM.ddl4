@@ -1,0 +1,129 @@
+drop view sim_project_person ;
+drop view sim_manager ;
+
+create view sim_project_person as
+SELECT 
+    PERSON_ID,
+    TYPE,
+    NAME,
+    SSNUM,
+    GENDER,
+    BIRTH_DATE,
+    ADDRESS,
+    CITY,
+    STATE,
+    ZIP,
+    HIRE_DATE,
+    SALARY,
+    STATUS,
+    TITLE,
+    RATING,
+    SIM_DEPT_DEPT_ID,
+    SIM_DEPT_DEPT_ID1,  
+    MANAGER_ID
+
+FROM sim_person where type = 'Project Person' ;
+
+create or replace TRIGGER project_person_trigger
+     INSTEAD OF insert ON sim_project_person
+     FOR EACH ROW
+BEGIN
+     insert into sim_person( 
+    PERSON_ID,
+    TYPE,
+    NAME,
+    SSNUM,
+    GENDER,
+    BIRTH_DATE,
+    ADDRESS,
+    CITY,
+    STATE,
+    ZIP,
+    HIRE_DATE,
+    SALARY,
+    STATUS,
+    TITLE,
+    RATING,
+    SIM_DEPT_DEPT_ID,
+    MANAGER_ID)
+     VALUES ( 
+    :NEW.PERSON_ID,
+    'Project Person',
+    :NEW.NAME,
+    :NEW.SSNUM,
+    :NEW.GENDER,
+    :NEW.BIRTH_DATE,
+    :NEW.ADDRESS,
+    :NEW.CITY,
+    :NEW.STATE,
+    :NEW.ZIP,
+    :NEW.HIRE_DATE,
+    :NEW.SALARY,
+    :NEW.STATUS,
+    :NEW.TITLE,
+    :NEW.RATING,
+    :NEW.SIM_DEPT_DEPT_ID,
+    :NEW.MANAGER_ID) ;
+END;
+/
+
+create view sim_manager as
+SELECT 
+    PERSON_ID,
+    TYPE,
+    NAME,
+    SSNUM,
+    GENDER,
+    BIRTH_DATE,
+    ADDRESS,
+    CITY,
+    STATE,
+    ZIP,
+    HIRE_DATE,
+    SALARY,
+    STATUS,
+    TITLE,
+    BONUS,
+    SIM_DEPT_DEPT_ID1
+FROM sim_person where type = 'Manager' ;
+
+create or replace TRIGGER sim_manager_trigger
+     INSTEAD OF insert ON sim_manager
+     FOR EACH ROW
+BEGIN
+     insert into sim_person(
+    PERSON_ID,
+    TYPE,
+    NAME,
+    SSNUM,
+    GENDER,
+    BIRTH_DATE,
+    ADDRESS,
+    CITY,
+    STATE,
+    ZIP,
+    HIRE_DATE,
+    SALARY,
+    STATUS,
+    TITLE,
+    BONUS,
+    SIM_DEPT_DEPT_ID1)
+     VALUES (
+    :NEW.PERSON_ID,
+    'Manager',
+    :NEW.NAME,
+    :NEW.SSNUM,
+    :NEW.GENDER,
+    :NEW.BIRTH_DATE,
+    :NEW.ADDRESS,
+    :NEW.CITY,
+    :NEW.STATE,
+    :NEW.ZIP,
+    :NEW.HIRE_DATE,
+    :NEW.SALARY,
+    :NEW.STATUS,
+    :NEW.TITLE,
+    :NEW.BONUS,
+    :NEW.SIM_DEPT_DEPT_ID1) ;
+END;
+/

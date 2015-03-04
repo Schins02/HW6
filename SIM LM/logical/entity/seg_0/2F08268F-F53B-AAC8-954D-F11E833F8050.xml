@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F08268F-F53B-AAC8-954D-F11E833F8050" name="SIM_dept">
+<createdBy>pcannata</createdBy>
+<createdTime>2014-09-13 02:09:31 UTC</createdTime>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dept_id" id="CA2F4782-EAED-FFCB-ACB3-C27B3234AAAE">
+<createdBy>pcannata</createdBy>
+<createdTime>2014-09-13 02:09:46 UTC</createdTime>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="name" id="27B1B960-F35E-3784-419A-A99B33610A37">
+<createdBy>pcannata</createdBy>
+<createdTime>2014-09-13 02:10:05 UTC</createdTime>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="location" id="B2E91868-DC12-9EFB-5E93-0EC48F0A532D">
+<createdBy>pcannata</createdBy>
+<createdTime>2014-09-13 02:10:19 UTC</createdTime>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="person_id" id="476680B5-F47B-86B6-DFA4-684BBECECD22">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-03 20:19:06 UTC</createdTime>
+<generatorID>BC0FEB36-505B-1617-2AD0-628B87A918B8</generatorID>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>42F31723-061B-889A-A2AA-CAA77FE1CEA6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9CDAB3E5-BB28-856E-71B6-1616FE172F6B" name="SIM_dept PK">
+<createdBy>pcannata</createdBy>
+<createdTime>2014-09-13 02:09:58 UTC</createdTime>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CA2F4782-EAED-FFCB-ACB3-C27B3234AAAE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

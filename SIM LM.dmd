@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SIM LM" id="CB50C39F-353F-2ABB-3B00-BF9787811061" version="3.5">
+<createdBy>pcannata</createdBy>
+<createdTime>2014-09-12 20:52:11 UTC</createdTime>
+<ownerDesignName>SIM DM</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CB50C39F-353F-2ABB-3B00-BF9787811061</designId>
+</OSDM_Design>

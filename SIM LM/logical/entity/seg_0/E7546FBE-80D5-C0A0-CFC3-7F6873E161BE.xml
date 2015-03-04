@@ -1,0 +1,273 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E7546FBE-80D5-C0A0-CFC3-7F6873E161BE" name="SIM_Person">
+<createdBy>pcannata</createdBy>
+<createdTime>2014-09-12 20:53:47 UTC</createdTime>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="person_id" id="42F31723-061B-889A-A2AA-CAA77FE1CEA6">
+<createdBy>pcannata</createdBy>
+<createdTime>2014-09-12 20:54:06 UTC</createdTime>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="type" id="E5E84305-6A35-CA24-E9A5-3FBE5D60230E">
+<createdBy>pcannata</createdBy>
+<createdTime>2014-09-26 00:56:03 UTC</createdTime>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="name" id="8EC25DA6-A541-4788-7FD0-2C470EE6C385">
+<createdBy>pcannata</createdBy>
+<createdTime>2014-09-12 20:58:54 UTC</createdTime>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="ssnum" id="6B27A565-102B-4179-6348-68BD4845777A">
+<createdBy>pcannata</createdBy>
+<createdTime>2014-09-12 20:58:24 UTC</createdTime>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="gender" id="4D8E97B6-7B15-E9F9-AB05-59EEC1FCE771">
+<createdBy>pcannata</createdBy>
+<createdTime>2014-09-12 20:57:57 UTC</createdTime>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="birth_date" id="6A3A4EB6-F164-BC88-10EE-2C46908B5BB1">
+<createdBy>pcannata</createdBy>
+<createdTime>2014-09-12 20:57:30 UTC</createdTime>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="address" id="FD02E6E4-088C-3891-5E24-BA60431840E3">
+<createdBy>pcannata</createdBy>
+<createdTime>2014-09-12 20:54:28 UTC</createdTime>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="city" id="1D7EEDEB-EC39-5765-CFFC-05A2DB48228B">
+<createdBy>pcannata</createdBy>
+<createdTime>2014-09-12 20:56:29 UTC</createdTime>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="state" id="CDDA5505-42B1-A710-3E1B-57E3E21621F8">
+<createdBy>pcannata</createdBy>
+<createdTime>2014-09-12 20:56:51 UTC</createdTime>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="zip" id="F1FE6B1A-348A-7FE2-B04A-59293C20F507">
+<createdBy>pcannata</createdBy>
+<createdTime>2014-09-12 20:57:07 UTC</createdTime>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="hire_date" id="5C27DE17-22A8-0778-9684-C22B705820D5">
+<createdBy>pcannata</createdBy>
+<createdTime>2014-09-15 01:45:02 UTC</createdTime>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="salary" id="FB862C89-86A8-C801-4CBB-BA0D6BF1950E">
+<createdBy>pcannata</createdBy>
+<createdTime>2014-09-15 01:45:20 UTC</createdTime>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="status" id="E67B4EA4-1604-ACFD-71EF-4D5ECD088F27">
+<createdBy>pcannata</createdBy>
+<createdTime>2014-09-15 01:45:38 UTC</createdTime>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="title" id="81818AD9-C431-731F-9A6D-459D21FA42BD">
+<createdBy>pcannata</createdBy>
+<createdTime>2014-09-15 01:45:57 UTC</createdTime>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="rating" id="29E39347-0B7D-C595-8686-C203A6E2FFCC">
+<createdBy>pcannata</createdBy>
+<createdTime>2014-09-15 01:46:18 UTC</createdTime>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="bonus" id="317701E2-DE8C-2E6B-25BA-B1DB04B4E09C">
+<createdBy>pcannata</createdBy>
+<createdTime>2014-09-15 01:46:43 UTC</createdTime>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="dept_id" id="42028BF1-252F-0F00-E95E-92A1EBDF06E3">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-03 20:19:14 UTC</createdTime>
+<generatorID>BC0FEB36-505B-1617-2AD0-628B87A918B8</generatorID>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CA2F4782-EAED-FFCB-ACB3-C27B3234AAAE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="dept_id1" id="5ED43A35-B161-EE30-C431-7249182BAF21">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-03 20:36:49 UTC</createdTime>
+<generatorID>A3F83F3F-E503-A2C5-1177-64065CCAC41F</generatorID>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CA2F4782-EAED-FFCB-ACB3-C27B3234AAAE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="manager_id" id="F0726D05-04E7-995C-9011-8E04E28AE897">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-03 20:44:55 UTC</createdTime>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1D731663-3E02-FFE5-B185-30B168076ED4" name="SIM_Person PK">
+<createdBy>pcannata</createdBy>
+<createdTime>2014-09-12 20:54:23 UTC</createdTime>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>42F31723-061B-889A-A2AA-CAA77FE1CEA6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

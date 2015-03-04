@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_5" directorySegmentName="seg_0" id="BC0FEB36-505B-1617-2AD0-628B87A918B8">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-03 20:19:06 UTC</createdTime>
+<ownerDesignName>SIM LM</ownerDesignName>
+<engineerTo>
+<item key="88EE6C21-600E-4E3F-7FD0-C14E0EC541A9" value="true"/>
+</engineerTo>
+<sourcePk>1D731663-3E02-FFE5-B185-30B168076ED4</sourcePk>
+<targetPk>9CDAB3E5-BB28-856E-71B6-1616FE172F6B</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E7546FBE-80D5-C0A0-CFC3-7F6873E161BE</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2F08268F-F53B-AAC8-954D-F11E833F8050</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

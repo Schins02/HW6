@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="C9C6E732-0E16-110C-0771-C32AF2B92BC7" mainViewID="2B61E4F3-A388-F02C-CB13-64D3BD77DA86">
+<createdBy>pcannata</createdBy>
+<createdTime>2014-09-12 20:52:11 UTC</createdTime>
+<ownerDesignName>SIM DM</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
